@@ -10,13 +10,15 @@ To get a local copy up and running follow these simple steps.
 
 Ensure you have Node.js and npm (Node Package Manager) installed on your machine.
 
-- Node.js - [Download & Install Node.js](https://nodejs.org/en/download/)
-- npm - npm is installed with Node.js. If not, you can install it by running: `npm install npm@latest -g`
+Install dependencies:
+npm install
 
-### Installation
+### Running the Application
+To run the app locally, use the following command:
+npm start
 
-1. **Clone the repository:**
+### Backend Integration
+This project integrates a PHP backend. To set up the backend:
+Ensure your PHP environment is configured correctly.
+Place your PHP files in the appropriate backend directory.
 
-   ```bash
-   git clone https://github.com/your-username/your-repo-name.git
-   cd your-repo-name
